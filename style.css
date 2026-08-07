@@ -1,13 +1,11 @@
-/* css/style.css */
 
-/* 1. Google Font & Base Settings */
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap');
 
 :root {
-    --primary-color: #1a1a1a;   /* สีดำ/เทาเข้ม (พื้นหลังหลัก) */
-    --secondary-color: #ff5e00; /* สีส้ม Neon (สีเน้น / Buttons / Hover) */
-    --text-color: #ffffff;      /* สีข้อความหลัก */
-    --bg-light: #2a2a2a;        /* สีเทาอ่อนสำหรับการ์ดและ Section */
+    --primary-color: #1a1a1a;   
+    --secondary-color: #ff5e00; 
+    --text-color: #ffffff;      
+    --bg-light: #2a2a2a;        
     --font-main: 'Prompt', sans-serif;
 }
 
@@ -141,9 +139,6 @@ a {
     margin-bottom: 10px;
 }
 
-/* ==========================================
-   PAGE 1: INDEX.HTML STYLES
-   ========================================== */
 .hero-section {
     display: flex;
     align-items: center;
@@ -180,7 +175,7 @@ a {
     box-shadow: 0 10px 3px var(--secondary-color);
 }
 
-/* CSS Grid Point 1: Features Section */
+
 .features-section {
     padding: 80px 8%;
     background-color: var(--bg-light);
@@ -258,7 +253,7 @@ a {
 .testimonial-user img {
     width: 50px;
     height: 50px;
-    border-radius: 50%; /* โปรไฟล์วงกลมบังคับ */
+    border-radius: 50%; 
     object-fit: cover;
     border: 2px solid var(--secondary-color);
 }
@@ -270,7 +265,7 @@ a {
 /* CTA Section */
 .cta-section {
     padding: 60px 8%;
-    background-color: var(--secondary-color); /* สีเด่นต่างจากอันอื่น */
+    background-color: var(--secondary-color);
     color: white;
     text-align: center;
 }
@@ -294,9 +289,7 @@ a {
     background-color: #333;
 }
 
-/* ==========================================
-   PAGE 2: MENU.HTML STYLES
-   ========================================== */
+
 .products-container {
     padding: 60px 8%;
 }
@@ -369,9 +362,7 @@ a {
     letter-spacing: 1px;
 }
 
-/* ==========================================
-   PAGE 3: CONTACT.HTML STYLES
-   ========================================== */
+
 .contact-main {
     padding: 60px 8%;
 }
